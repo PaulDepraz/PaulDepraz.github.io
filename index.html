@@ -31,15 +31,15 @@
             <ul>
               <li>
                 <span class='entypo-location'></span>
-                <span class='selectedLocation'>Israel</span>
+                <span class='selectedLocation'>Middle East</span>
               </li>
               <li>
-                <span class='entypo-mail'></span>
-                <a href='#'>johndoe@gmail.com</a>
+                <div id='phone'>
+                </div>
               </li>
               <li>
-                <span class='entypo-phone'></span>
-                (+972 2) 629 06 32
+                <div id='user'>
+                </div>
               </li>
             </ul>
           </div>
@@ -63,15 +63,15 @@
     </div>
     <div id='right'>
       <p>Subscribe to receive SMS messages</p>
-      <form>
-        <input placeholder='Phone number with country code. i.e. +5511973089110' type='pn'>
-        <input placeholder='Your Full Name' type='name'>
-        <input placeholder='Send some cool msgs!' type='submit'>
+      <form id='subscribe'>
+        <input id='pn' placeholder='Phone number with country code. i.e. +5511973089110' type='pn'>
+        <input id='name' placeholder='Your Full Name' type='name' required>
+        <input placeholder='Send some cool msgs!' type='submit' required>
       </form>
       <p>Unsubscribe</p>
-      <form>
-        <input placeholder='Phone number with country code. i.e. +5511973089110' type='pn'>
-        <input placeholder='Stop sending me stuff.' type='submit'>
+      <form id='unsubscribe'>
+        <input id='pnu' placeholder='Phone number with country code. i.e. +5511973089110' type='pn'>
+        <input placeholder='Stop sending me stuff.' type='submit' required>
       </form>
     </div>
   </div>
